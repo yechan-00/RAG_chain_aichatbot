@@ -1,5 +1,0 @@
-pymupdf
-streamlit
-fpdf
-python-dotenv
-faiss-cpu
