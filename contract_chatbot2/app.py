@@ -13,7 +13,7 @@ from utils.helper import answer_question_about_contract, highlight_risk_sentence
 # 🔍 FAISS 관련 추가 import
 from langchain_community.vectorstores import FAISS
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
 
 # ✅ 페이지 제목과 아이콘 변경
